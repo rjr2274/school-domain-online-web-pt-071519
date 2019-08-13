@@ -26,7 +26,9 @@ class School
   end
 
   def sort
-    @roster.sort.to_h
+    @roster.map do |key, value|
+      binding.pry
+      value.sort!
   end
 
 end
