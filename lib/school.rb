@@ -29,6 +29,7 @@ class School
     @roster.map do |key, value|
       binding.pry
       value.sort!
+    end
   end
 
 end
